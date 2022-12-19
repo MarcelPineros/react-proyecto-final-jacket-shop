@@ -1,0 +1,71 @@
+/*-- Caja de Categorías --*/
+
+.Mproducts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+} 
+
+.MproductsDetail {
+  margin: 7px;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* ---------------- PRODUCTOS ---------- */
+
+.MproductsDetail img{
+  width: 30%;
+  height: auto;
+  margin: 7px;
+  border-radius: 10px;
+  
+}
+
+.MproductsDetail h4 {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #23242a;
+  letter-spacing: 1px;
+}
+
+.MproductsDetail p {
+  width: 100%;
+  font-weight: 600;
+  font-size: 23px;
+  color: #000;
+  letter-spacing: 1px;
+  padding: 10px;
+  margin-bottom: 5px;
+
+
+}
+
+
+
+.MproductsDetail a {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #00B8D4;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: all 0.3 ease;
+}
+
+.MproductsDetail a:hover {
+  background-color: #2962FF;
+}
